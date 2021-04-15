@@ -25,7 +25,7 @@ function checking(counter){
             alert('Игра окончена');
         } else if (!isNumber(number)) {
             alert('Введи число!');
-            checking();
+            checking(counter);
         } else if (x > number){
             counter--;
             alert('Загаданное число больше, осталось попыток: ' + counter);
